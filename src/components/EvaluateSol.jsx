@@ -203,7 +203,7 @@ const EvaluateSol = ({ onBackClick, tokenAddress, selectedToken }) => {
                       tokenAge={tokenAge}
                       owner={owner}
                     />
-                    <div className="border-b-2 border-white/10 my-5 self-stretch"></div>
+                    <div className="border-b-2 border-white/10 my-2 sm:my-5 self-stretch"></div>
                     <Report
                       mintingAuth={mintingAuth}
                       freezingAuth={freezingAuth}
